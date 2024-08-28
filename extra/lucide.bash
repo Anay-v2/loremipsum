@@ -1,0 +1,1 @@
+bunx nuxi module add lucide-icons

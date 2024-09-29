@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "loremipsum",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,19 +10,30 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@firebase/app-types": "^0.9.2",
+    "@nuxtjs/google-fonts": "latest",
     "@nuxtjs/tailwindcss": "latest",
+    "@primevue/themes": "^4.0.7",
     "@typescript-eslint/parser": "^5.0.1",
     "@vueuse/nuxt": "latest",
+    "diff": "^7.0.0",
     "eslint": "^8.7.0",
+    "firebase": "^10.13.2",
+    "firebase-admin": "^12.5.0",
+    "firebase-functions": "^6.0.1",
     "nuxt": "^3.13.0",
+    "nuxt-lucide-icons": "latest",
     "nuxt-typed-router": "latest",
+    "nuxt-vuefire": "latest",
     "postcss-preset-env": "^10.0.2",
     "prettier": "^2.5.1",
+    "primevue": "^4.0.7",
     "typescript": "^4.4.4",
     "vue": "latest"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
+    "@primevue/nuxt-module": "^4.0.7",
     "eslint-plugin-vue": "^9.27.0",
     "globals": "^15.9.0",
     "typescript-eslint": "^8.3.0"
